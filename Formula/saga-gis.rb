@@ -43,7 +43,7 @@ class SagaGis < Formula
   depends_on "brewsci/science/vigra" => :optional
   depends_on "postgresql" => :optional
   depends_on "python@2" => :optional
-  depends_on "opencv" => :optional
+  #depends_on "opencv" => :optional
   depends_on "liblas" => :optional
   depends_on "poppler" => :optional
   depends_on "osgeo/osgeo4mac/hdf4" => :optional
