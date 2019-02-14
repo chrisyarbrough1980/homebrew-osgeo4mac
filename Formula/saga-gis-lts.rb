@@ -43,14 +43,14 @@ class SagaGisLts < Formula
   depends_on "swig"
   depends_on "xz" # lzma
   depends_on "giflib"
-  depends_on "opencv@2" # required or: 'opencv/cv.h' and 'opencv2/core/version.hpp' file not found
+  #depends_on "opencv@2" # required or: 'opencv/cv.h' and 'opencv2/core/version.hpp' file not found
   depends_on "unixodbc" => :recommended
   depends_on "libharu" => :recommended
   depends_on "qhull" => :recommended # instead of looking for triangle
   # Vigra support builds, but dylib in saga shows 'failed' when loaded
   # Also, using --with-python will trigger vigra to be built with it, which
   # triggers a source (re)build of boost --with-python
-  depends_on "osgeo/osgeo4mac/vigra" => :optional
+  #depends_on "osgeo/osgeo4mac/vigra" => :optional
   depends_on "postgresql" => :optional
   depends_on "python@2" => :optional
   depends_on "liblas" => :optional
